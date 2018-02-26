@@ -31,6 +31,10 @@ Partial Class frmLoginReg
         Me.txtPwrd = New System.Windows.Forms.TextBox()
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.tbRegister = New System.Windows.Forms.TabPage()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
@@ -49,10 +53,6 @@ Partial Class frmLoginReg
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtNameUser = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.tbCtrlLogReg.SuspendLayout()
         Me.tbLogin.SuspendLayout()
         Me.tbRegister.SuspendLayout()
@@ -61,16 +61,16 @@ Partial Class frmLoginReg
         'txtLogin
         '
         Me.txtLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLogin.Location = New System.Drawing.Point(85, 49)
+        Me.txtLogin.Location = New System.Drawing.Point(70, 50)
         Me.txtLogin.Name = "txtLogin"
-        Me.txtLogin.Size = New System.Drawing.Size(107, 21)
+        Me.txtLogin.Size = New System.Drawing.Size(137, 21)
         Me.txtLogin.TabIndex = 1
         '
         'lbLogin
         '
         Me.lbLogin.AutoSize = True
-        Me.lbLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.25!)
-        Me.lbLogin.Location = New System.Drawing.Point(118, 29)
+        Me.lbLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbLogin.Location = New System.Drawing.Point(118, 30)
         Me.lbLogin.Name = "lbLogin"
         Me.lbLogin.Size = New System.Drawing.Size(41, 16)
         Me.lbLogin.TabIndex = 2
@@ -80,20 +80,20 @@ Partial Class frmLoginReg
         'lbPwrd
         '
         Me.lbPwrd.AutoSize = True
-        Me.lbPwrd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbPwrd.Location = New System.Drawing.Point(103, 76)
+        Me.lbPwrd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbPwrd.Location = New System.Drawing.Point(103, 91)
         Me.lbPwrd.Name = "lbPwrd"
-        Me.lbPwrd.Size = New System.Drawing.Size(70, 15)
+        Me.lbPwrd.Size = New System.Drawing.Size(77, 16)
         Me.lbPwrd.TabIndex = 3
         Me.lbPwrd.Text = "Contraseña"
         Me.lbPwrd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnFrgtPwd
         '
-        Me.btnFrgtPwd.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFrgtPwd.Location = New System.Drawing.Point(80, 171)
+        Me.btnFrgtPwd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnFrgtPwd.Location = New System.Drawing.Point(60, 318)
         Me.btnFrgtPwd.Name = "btnFrgtPwd"
-        Me.btnFrgtPwd.Size = New System.Drawing.Size(117, 21)
+        Me.btnFrgtPwd.Size = New System.Drawing.Size(145, 29)
         Me.btnFrgtPwd.TabIndex = 4
         Me.btnFrgtPwd.Text = "Olvide mi contraseña."
         Me.btnFrgtPwd.UseVisualStyleBackColor = True
@@ -105,7 +105,7 @@ Partial Class frmLoginReg
         Me.tbCtrlLogReg.Location = New System.Drawing.Point(0, 0)
         Me.tbCtrlLogReg.Name = "tbCtrlLogReg"
         Me.tbCtrlLogReg.SelectedIndex = 0
-        Me.tbCtrlLogReg.Size = New System.Drawing.Size(285, 287)
+        Me.tbCtrlLogReg.Size = New System.Drawing.Size(285, 384)
         Me.tbCtrlLogReg.TabIndex = 5
         '
         'tbLogin
@@ -119,7 +119,7 @@ Partial Class frmLoginReg
         Me.tbLogin.Location = New System.Drawing.Point(4, 22)
         Me.tbLogin.Name = "tbLogin"
         Me.tbLogin.Padding = New System.Windows.Forms.Padding(3)
-        Me.tbLogin.Size = New System.Drawing.Size(277, 331)
+        Me.tbLogin.Size = New System.Drawing.Size(277, 358)
         Me.tbLogin.TabIndex = 1
         Me.tbLogin.Text = "Login"
         Me.tbLogin.UseVisualStyleBackColor = True
@@ -127,18 +127,18 @@ Partial Class frmLoginReg
         'txtPwrd
         '
         Me.txtPwrd.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPwrd.Location = New System.Drawing.Point(74, 95)
+        Me.txtPwrd.Location = New System.Drawing.Point(70, 110)
         Me.txtPwrd.Name = "txtPwrd"
-        Me.txtPwrd.Size = New System.Drawing.Size(129, 21)
+        Me.txtPwrd.Size = New System.Drawing.Size(137, 21)
         Me.txtPwrd.TabIndex = 2
         Me.txtPwrd.UseSystemPasswordChar = True
         '
         'btnLogin
         '
-        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.Location = New System.Drawing.Point(109, 123)
+        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.Location = New System.Drawing.Point(109, 179)
         Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(58, 21)
+        Me.btnLogin.Size = New System.Drawing.Size(71, 25)
         Me.btnLogin.TabIndex = 3
         Me.btnLogin.Text = "Ingresar."
         Me.btnLogin.UseVisualStyleBackColor = True
@@ -170,17 +170,52 @@ Partial Class frmLoginReg
         Me.tbRegister.Location = New System.Drawing.Point(4, 22)
         Me.tbRegister.Name = "tbRegister"
         Me.tbRegister.Padding = New System.Windows.Forms.Padding(3)
-        Me.tbRegister.Size = New System.Drawing.Size(277, 261)
+        Me.tbRegister.Size = New System.Drawing.Size(277, 358)
         Me.tbRegister.TabIndex = 0
         Me.tbRegister.Text = "Registrarse"
         Me.tbRegister.UseVisualStyleBackColor = True
         '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(144, 162)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.TabIndex = 6
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(12, 163)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(97, 16)
+        Me.Label10.TabIndex = 19
+        Me.Label10.Text = "Telefono Movil"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(144, 192)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 7
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(12, 193)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(87, 16)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "Telefono Fijo"
+        '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(3, 81)
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(12, 103)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(93, 13)
+        Me.Label8.Size = New System.Drawing.Size(117, 16)
         Me.Label8.TabIndex = 16
         Me.Label8.Text = "Fecha Nacimiento"
         '
@@ -188,7 +223,7 @@ Partial Class frmLoginReg
         '
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.DateTimePicker1.Location = New System.Drawing.Point(111, 78)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(144, 99)
         Me.DateTimePicker1.MaxDate = New Date(3333, 12, 31, 0, 0, 0, 0)
         Me.DateTimePicker1.MinDate = New Date(1900, 1, 1, 0, 0, 0, 0)
         Me.DateTimePicker1.Name = "DateTimePicker1"
@@ -197,7 +232,7 @@ Partial Class frmLoginReg
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(111, 210)
+        Me.TextBox7.Location = New System.Drawing.Point(143, 282)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 10
@@ -206,15 +241,16 @@ Partial Class frmLoginReg
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(3, 213)
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(12, 283)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(98, 13)
+        Me.Label7.Size = New System.Drawing.Size(125, 16)
         Me.Label7.TabIndex = 14
         Me.Label7.Text = "Codigo Verificacion"
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(199, 236)
+        Me.btnCancel.Location = New System.Drawing.Point(198, 330)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(75, 23)
         Me.btnCancel.TabIndex = 12
@@ -223,7 +259,7 @@ Partial Class frmLoginReg
         '
         'btnRegUser
         '
-        Me.btnRegUser.Location = New System.Drawing.Point(121, 236)
+        Me.btnRegUser.Location = New System.Drawing.Point(120, 330)
         Me.btnRegUser.Name = "btnRegUser"
         Me.btnRegUser.Size = New System.Drawing.Size(75, 23)
         Me.btnRegUser.TabIndex = 11
@@ -232,7 +268,7 @@ Partial Class frmLoginReg
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(111, 188)
+        Me.TextBox5.Location = New System.Drawing.Point(144, 252)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 9
@@ -241,15 +277,16 @@ Partial Class frmLoginReg
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(3, 191)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(12, 253)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 13)
+        Me.Label5.Size = New System.Drawing.Size(124, 16)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Repetir Contraseña"
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(111, 166)
+        Me.TextBox6.Location = New System.Drawing.Point(144, 219)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
         Me.TextBox6.TabIndex = 8
@@ -258,15 +295,16 @@ Partial Class frmLoginReg
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(3, 169)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(12, 223)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(61, 13)
+        Me.Label6.Size = New System.Drawing.Size(77, 16)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Contraseña"
         '
         'txtEmailReg
         '
-        Me.txtEmailReg.Location = New System.Drawing.Point(111, 100)
+        Me.txtEmailReg.Location = New System.Drawing.Point(143, 132)
         Me.txtEmailReg.Name = "txtEmailReg"
         Me.txtEmailReg.Size = New System.Drawing.Size(100, 20)
         Me.txtEmailReg.TabIndex = 5
@@ -274,15 +312,16 @@ Partial Class frmLoginReg
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(3, 103)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 133)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(32, 13)
+        Me.Label3.Size = New System.Drawing.Size(42, 16)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Email"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(111, 56)
+        Me.TextBox4.Location = New System.Drawing.Point(143, 72)
         Me.TextBox4.MaxLength = 9
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
@@ -291,15 +330,16 @@ Partial Class frmLoginReg
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(3, 59)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(12, 73)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 13)
+        Me.Label4.Size = New System.Drawing.Size(51, 16)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Cedula"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(111, 34)
+        Me.TextBox2.Location = New System.Drawing.Point(143, 42)
         Me.TextBox2.MaxLength = 60
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
@@ -308,15 +348,16 @@ Partial Class frmLoginReg
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(3, 37)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(12, 43)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(49, 13)
+        Me.Label2.Size = New System.Drawing.Size(65, 16)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Apellidos"
         '
         'txtNameUser
         '
-        Me.txtNameUser.Location = New System.Drawing.Point(111, 12)
+        Me.txtNameUser.Location = New System.Drawing.Point(143, 12)
         Me.txtNameUser.MaxLength = 45
         Me.txtNameUser.Name = "txtNameUser"
         Me.txtNameUser.Size = New System.Drawing.Size(100, 20)
@@ -325,49 +366,18 @@ Partial Class frmLoginReg
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 15)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 13)
+        Me.Label1.Size = New System.Drawing.Size(57, 16)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nombre"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(111, 144)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 7
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(3, 147)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(68, 13)
-        Me.Label9.TabIndex = 17
-        Me.Label9.Text = "Telefono Fijo"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(111, 122)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 6
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(3, 125)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(77, 13)
-        Me.Label10.TabIndex = 19
-        Me.Label10.Text = "Telefono Movil"
         '
         'frmLoginReg
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 285)
+        Me.ClientSize = New System.Drawing.Size(284, 381)
         Me.Controls.Add(Me.tbCtrlLogReg)
         Me.Name = "frmLoginReg"
         Me.Text = "Ingresar al Sistema"

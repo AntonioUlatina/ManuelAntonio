@@ -65,11 +65,5 @@ Public Class frmLoginReg
 
     End Function
 
-    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
 
-    End Sub
-
-    Private Sub ttID_Popup(sender As Object, e As PopupEventArgs)
-
-    End Sub
 End Class
